@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('assets/bg-blur.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+h1 {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 2rem;
+    color: #fff;
+}
+
+h1 span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.cta-button {
+    background: #00a86b;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #007f50;
+}
+
+.cookie-consent {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.9);
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cookie-consent button {
+    margin-left: 10px;
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #ccc;
+}
